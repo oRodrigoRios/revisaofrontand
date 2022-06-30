@@ -1,0 +1,17 @@
+body {
+    background-image: url(imagens/fundoespaco.jpg);
+}
+
+#titulo {
+    font-style: italic;
+    color: azure;
+    }
+#paragrafo {
+    color: rgb(255, 246, 195);
+}
+#botao {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(251, 255, 0);
+}
+
