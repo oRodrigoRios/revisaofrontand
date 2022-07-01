@@ -8,5 +8,5 @@ button.onclick = function () {
     else {
         alert("Vish! " + nome + ", esse não é o comando correto para inicializar o Git.");
     }
-    window.location="aula3.html";
+    window.location="aula5.html";
 }

@@ -15,3 +15,32 @@ body {
     color: rgb(251, 255, 0);
 }
 
+.dvabout {
+    opacity: 1;
+    float: left;
+    margin-top: 50px;
+    width: 300px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    transition: width 4s, height 4s;
+  }
+  
+  .dvallabout {
+    color: white;
+  }
+  
+  .dvaboutHid1 {
+    opacity: 0;
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+    height: 0px;
+    
+  }
+  
+  .dvallabout:hover .dvaboutHid1 {
+    opacity: 1;
+    height: auto;
+  }
+
