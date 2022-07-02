@@ -6,7 +6,7 @@ button.onclick = function () {
         alert("Opa! " + nome + ", Parabéns! Você acertou!!");
     }
     else {
-        alert("Opa! " + nome + ", esse não é o comando correto para inicializar o Git.");
+        alert("infelizmente! " + nome + ", Esse não é o comando correto.");
     }
     window.location="aula2.html";
 }

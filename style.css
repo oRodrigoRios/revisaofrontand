@@ -14,33 +14,23 @@ body {
     text-transform: uppercase;
     color: rgb(251, 255, 0);
 }
+#botao1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(112, 112, 38);
+}
 
-.dvabout {
-    opacity: 1;
-    float: left;
-    margin-top: 50px;
-    width: 300px;
-    color: white;
-    background: rgba(0, 0, 0, 0.3);
-    transition: width 4s, height 4s;
-  }
-  
-  .dvallabout {
-    color: white;
-  }
-  
-  .dvaboutHid1 {
-    opacity: 0;
-    -webkit-transition: 0.1s ease-in;
-    -moz-transition: 0.1s ease-in;
-    -o-transition: 0.1s ease-in;
-    transition: 0.1s ease-in;
-    height: 0px;
-    
-  }
-  
-  .dvallabout:hover .dvaboutHid1 {
-    opacity: 1;
-    height: auto;
-  }
+#paragrafo1 {
+  font-style: initial;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-family: 'The Nautigal', cursive;
+  color: rgb(250, 56, 169);
+}
 
+#paragrafo2 {
+  font-style: initial;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-family: 'The Nautigal', cursive;
+  color: rgb(247, 222, 236);
+}
